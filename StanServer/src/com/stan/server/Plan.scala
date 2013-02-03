@@ -1,6 +1,6 @@
 package com.stan.server
 
-import scala.collection.mutable.MutableList
+import scala.collection.mutable.ArrayBuffer
 import collection.mutable
 
 /**
@@ -12,7 +12,7 @@ import collection.mutable
  */
 class Plan
 {
-  private var tasks = new mutable.MutableList[Task]
+  private var tasks = new mutable.ArrayBuffer[Task]
 
   def Plan()
   {
@@ -23,8 +23,13 @@ class Plan
   def addTask(newTask: Task)
   {
     tasks.+=(newTask)
-
   }
+
+  def removeTaskbyTask(oldTask: Task)
+  {
+    tasks.-=(oldTask)
+  }
+
 
 
 }

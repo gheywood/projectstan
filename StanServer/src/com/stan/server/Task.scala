@@ -9,5 +9,12 @@ package com.stan.server
  */
 class Task
 {
+  private var name = ""
+  private var description = ""
+  private var location = null
+  private var duration = 0
+  private var capacity = 0
+  private var url = ""
+
 
 }

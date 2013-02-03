@@ -9,8 +9,8 @@
     <file path="/JettyLauncher.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359901757075" ignored="false" />
     <file path="/fragment.java" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359905742085" ignored="false" />
     <file path="/MainLauncher.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359905291402" ignored="false" />
-    <file path="/Task.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359905607338" ignored="false" />
-    <file path="/Plan.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359908502673" ignored="false" />
+    <file path="/Task.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359909067958" ignored="false" />
+    <file path="/Plan.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359908935586" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Task.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/stan/server/Task.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+            <state line="17" column="2" selection-start="318" selection-end="318" vertical-scroll-proportion="0.48664123">
               <folding />
             </state>
           </provider>
@@ -98,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Plan.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Plan.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stan/server/Plan.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="2" selection-start="428" selection-end="428" vertical-scroll-proportion="0.9122807">
+            <state line="24" column="27" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#25#68#0" expanded="true" />
               </folding>
@@ -133,10 +133,10 @@
         <option value="$PROJECT_DIR$/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/stan/server/JettyLauncher.scala" />
         <option value="$PROJECT_DIR$/src/com/stan/server/MainLauncher.scala" />
-        <option value="$PROJECT_DIR$/src/com/stan/server/Task.scala" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/stan/server/Servlet.scala" />
         <option value="$PROJECT_DIR$/src/com/stan/server/Plan.scala" />
+        <option value="$PROJECT_DIR$/src/com/stan/server/Task.scala" />
       </list>
     </option>
   </component>
@@ -425,7 +425,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24621212" sideWeight="0.6702899" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32971016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -509,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stan/server/Task.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stan/server/Servlet.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0">
@@ -543,10 +536,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stan/server/Plan.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="2" selection-start="428" selection-end="428" vertical-scroll-proportion="0.9122807">
+        <state line="24" column="27" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#25#68#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stan/server/Task.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="2" selection-start="318" selection-end="318" vertical-scroll-proportion="0.48664123">
+          <folding />
         </state>
       </provider>
     </entry>
