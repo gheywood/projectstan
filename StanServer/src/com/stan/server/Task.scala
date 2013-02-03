@@ -1,5 +1,7 @@
 package com.stan.server
 
+import reflect.BeanProperty
+
 /**
  * Created with IntelliJ IDEA.
  * User: grantheywood
@@ -7,14 +9,17 @@ package com.stan.server
  * Time: 15:33
  * Holds the tasks...
  */
-class Task
+class Task(nam: String, desc: String, loc: String, dur: Int, cap: Int, ur: String)
 {
-  private var name = ""
-  private var description = ""
-  private var location = null
-  private var duration = 0
-  private var capacity = 0
-  private var url = ""
+  @BeanProperty
+  private var name = nam
+  @BeanProperty
+  private var description = desc
+
+  private var location = loc
+  private var duration = dur
+  private var capacity = cap
+  private var url = ur
 
 
 }

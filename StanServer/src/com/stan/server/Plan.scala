@@ -2,6 +2,7 @@ package com.stan.server
 
 import scala.collection.mutable.ArrayBuffer
 import collection.mutable
+import reflect.BeanProperty
 
 /**
  * Created with IntelliJ IDEA.
@@ -10,16 +11,13 @@ import collection.mutable
  * Time: 16:18
  * Holds a POA, contains a number of tasks
  */
-class Plan
+class Plan(nam: String, des: String)
 {
-  private var name = ""
-  private var description = ""
+  @BeanProperty
+  private var name = nam
+  @BeanProperty
+  private var description = des
   private var tasks = new mutable.ArrayBuffer[Task]
-
-  def Plan()
-  {
-    // Constructor for creating a new Plan
-  }
 
 
   def addTask(newTask: Task)
@@ -32,6 +30,13 @@ class Plan
     tasks.-=(oldTask)
   }
 
+
+  // Getters and Setters
+
+  def getName():String
+  {
+    name
+  }
 
 
 }
