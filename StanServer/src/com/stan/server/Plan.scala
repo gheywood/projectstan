@@ -12,6 +12,8 @@ import collection.mutable
  */
 class Plan
 {
+  private var name = ""
+  private var description = ""
   private var tasks = new mutable.ArrayBuffer[Task]
 
   def Plan()
