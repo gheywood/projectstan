@@ -5,11 +5,11 @@
     <ignored path="StanServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/web.xml" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359905389093" ignored="false" />
-    <file path="/Servlet.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359911931307" ignored="false" />
+    <file path="/Servlet.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359913158994" ignored="false" />
     <file path="/JettyLauncher.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359901757075" ignored="false" />
     <file path="/fragment.java" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359905742085" ignored="false" />
     <file path="/MainLauncher.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359905291402" ignored="false" />
-    <file path="/Task.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359911759491" ignored="false" />
+    <file path="/Task.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359913151184" ignored="false" />
     <file path="/Plan.scala" changelist="7b9a0692-42f4-4406-ba3d-37226d6ac6b4" time="1359911480307" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,19 +78,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.scala" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Task.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stan/server/Task.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="362" selection-end="362" vertical-scroll-proportion="0.48664123">
-              <folding />
+            <state line="26" column="66" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#25#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Servlet.scala" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Servlet.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/stan/server/Servlet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="4" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+            <state line="16" column="113" selection-start="455" selection-end="455" vertical-scroll-proportion="0.45801526">
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -534,19 +536,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stan/server/Servlet.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/stan/server/Task.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+        <state line="26" column="66" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#25#54#0" expanded="true" />
+            <element signature="e#25#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stan/server/Task.scala">
+    <entry file="file://$PROJECT_DIR$/src/com/stan/server/Servlet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="362" selection-end="362" vertical-scroll-proportion="0.48664123">
-          <folding />
+        <state line="16" column="113" selection-start="455" selection-end="455" vertical-scroll-proportion="0.45801526">
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
