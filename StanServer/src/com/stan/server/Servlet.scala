@@ -18,7 +18,24 @@ class Servlet extends ScalatraServlet with ScalateSupport
 
   }
 
+  get("/plan/:id")
+  {
+
+  }
+
+  get("/task/:id")
+  {
+
+  }
+
+  post("/addplan/:new")
+  {
 
 
+  }
 
+  post("/addtask/:new")
+  {
+
+  }
 }

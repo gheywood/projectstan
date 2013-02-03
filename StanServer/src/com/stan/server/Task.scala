@@ -15,10 +15,13 @@ class Task(nam: String, desc: String, loc: String, dur: Int, cap: Int, ur: Strin
   private var name = nam
   @BeanProperty
   private var description = desc
-
+  @BeanProperty
   private var location = loc
+  @BeanProperty
   private var duration = dur
+  @BeanProperty
   private var capacity = cap
+  @BeanProperty
   private var url = ur
 
 
