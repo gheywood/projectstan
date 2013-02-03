@@ -4,7 +4,7 @@ import org.eclipse.jetty.server._
 import org.eclipse.jetty.servlet.ServletContextHandler
 import org.eclipse.jetty.webapp.WebAppContext
 
-class JettyLauncher {
+object MainLauncher {
 
 
   def main(args: Array[String]) {
