@@ -14,10 +14,6 @@ class Task(nam: String, desc: String, loc: String, dur: Int, cap: Int, ur: Strin
 {
   private var name = nam
   private var description = desc
-<<<<<<< HEAD
-=======
-  @BeanProperty
->>>>>>> 26d3b0af8af6842648f874107ce9240653ba370e
   private var location = loc
   @BeanProperty
   private var duration = dur
