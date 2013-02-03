@@ -13,9 +13,7 @@ import reflect.BeanProperty
  */
 class Plan(nam: String, des: String)
 {
-  @BeanProperty
   private var name = nam
-  @BeanProperty
   private var description = des
   private var tasks = new mutable.ArrayBuffer[Task]
 
@@ -32,11 +30,5 @@ class Plan(nam: String, des: String)
 
 
   // Getters and Setters
-
-  def getName():String
-  {
-    name
-  }
-
 
 }
