@@ -1,8 +1,7 @@
 package com.stan.server
 
-import com.codahale.jerkson._
 import org.scalatra._
-import scalate.ScalateSupport
+import com.codahale.jerkson._
 import java.util.Date
 
 
@@ -11,7 +10,7 @@ import java.util.Date
  *
  */
 
-class Servlet extends ScalatraServlet with ScalateSupport
+class Servlet extends ScalatraServlet
 {
   var newPlan = new Plan("A New Plan", "This is a new Plan")
   var newTask = new Task("NewTask", "This is a new Task", "Everywhere", 1, 3, "Something", new Date(), new Date())
@@ -27,7 +26,10 @@ class Servlet extends ScalatraServlet with ScalateSupport
   get("/plan")
   {
     // Send back all the plans in JSON format
-
+    contentType ="application/json"
+    val list = Array(1, 2, 3, 4, 5)
+    var temp = Json.generate(list)
+    temp
   }
 
   // Returns the identified Plan
